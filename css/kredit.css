@@ -1,0 +1,334 @@
+#Header {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#Header a {
+  font-size: 14px;
+  color: #292621;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+#Header .right a {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+#Header .right i {
+  margin-left: 8px;
+}
+
+#Header2 {
+  padding: 20px 0;
+}
+
+#Header2 .mid a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #292621;
+  margin: 0 18px;
+}
+
+#Header2 .right i {
+  margin-left: 18px;
+}
+
+#Phone-header {
+  padding: 20px 0;
+  display: none;
+}
+
+@media (max-width: 576px) {
+  #Header, #Header2 {
+    display: none;
+  }
+  #Phone-header {
+    display: block;
+  }
+}
+
+#Slider {
+  background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/hero/h1_hero2.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  padding: 18rem 0;
+  position: relative;
+}
+
+#Slider .slider-text {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 40%;
+}
+
+#Slider .slider-text a {
+  background-color: #292621;
+  padding: 14px 47px;
+  border: 1px solid #292621;
+  font-size: 14px;
+  color: #fff !important;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+#Slider .slider-text span {
+  font-family: 'Clicker Script', cursive;
+  font-size: 50px;
+}
+
+#Fashion {
+  margin-top: 3rem;
+}
+
+#Fashion .box {
+  overflow: hidden;
+}
+
+#Fashion .box:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#Fashion .box img {
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Trend {
+  margin-top: 3rem;
+}
+
+#Trend .box:hover .top img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  z-index: 1;
+}
+
+#Trend .box:hover .top .icons {
+  opacity: 1;
+  z-index: 3;
+}
+
+#Trend .box:hover .bottom h3 {
+  color: red;
+}
+
+#Trend .box .top {
+  position: relative;
+}
+
+#Trend .box .top img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Trend .box .top .icons {
+  text-align: center;
+  position: absolute;
+  background-color: #fff;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+#Trend .box .top .icons i {
+  padding: 10px;
+  width: calc(100%/3);
+}
+
+#Trend .box .top .icons i:hover {
+  background-color: red;
+}
+
+#Trend .box .bottom {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#Trend .box .bottom h3 {
+  font-size: 14px;
+}
+
+#Trend .box .bottom del {
+  color: #cebd9c;
+}
+
+#Customer {
+  background-color: #F3EAD8;
+  margin-top: 3rem;
+}
+
+#Customer .all {
+  margin: auto;
+  text-align: center;
+  width: 56%;
+}
+
+#Customer .all h2 {
+  margin-top: 3rem;
+  font-size: 34px;
+  color: #292621;
+}
+
+#Customer .all p {
+  margin-bottom: 3rem;
+  font-size: 22px;
+  color: #292621;
+}
+
+#Customer .all .bio {
+  width: 40%;
+}
+
+#Trend2 {
+  margin-top: 3rem;
+}
+
+#Trend2 h1 {
+  margin-bottom: 2rem;
+}
+
+#Trend2 .box:hover .top img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  z-index: 1;
+}
+
+#Trend2 .box:hover .top .icons {
+  opacity: 1;
+  z-index: 3;
+}
+
+#Trend2 .box:hover .bottom h3 {
+  color: red;
+}
+
+#Trend2 .box .top {
+  position: relative;
+}
+
+#Trend2 .box .top img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Trend2 .box .top .icons {
+  text-align: center;
+  position: absolute;
+  background-color: #fff;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+#Trend2 .box .top .icons i {
+  padding: 10px;
+  width: calc(100%/3);
+}
+
+#Trend2 .box .top .icons i:hover {
+  background-color: red;
+}
+
+#Trend2 .box .bottom {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#Trend2 .box .bottom h3 {
+  font-size: 14px;
+}
+
+#Trend2 .box .bottom del {
+  color: #cebd9c;
+}
+
+#News {
+  margin-top: 3.5rem;
+}
+
+#News h1 {
+  margin-bottom: 2rem;
+}
+
+#News .box:hover .a1 {
+  color: red;
+}
+
+#News .box .box-text .a1 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#News .box .box-text .a2 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#News .box .box-text .a2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#News .box .box-text span {
+  font-size: 16px;
+  color: #74706b;
+}
+
+#News .box .box-text span a {
+  font-size: 22px;
+  color: #292621;
+}
+
+#News .box .box-text span p {
+  font-size: 16px;
+  color: #74706b;
+}
+
+#Last {
+  margin-top: 3rem;
+}
+
+#Last .box {
+  border-right: 1px solid #d0c8c8;
+}
+
+#Last .box h5 {
+  font-size: 20px;
+  color: #2b2b2b;
+}
+
+#Last .box p {
+  font-size: 16px;
+  color: #57667b;
+}
+/*# sourceMappingURL=kredit.css.map */
